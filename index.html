@@ -3,20 +3,105 @@
 <head>
 	<title>Faculdade Meta</title>
 </head>
+<style type="text/css">
+	td{
+		border: 2px solid black
+	}
+</style>
 	<body>
 
-	<h1>Faculdade META</h1>
-	<h2>Bem Vindo</h2>
-	<h3>Texto H3</h3>
-	<h4>Texto H4</h4>
-	<h5>Texto H5</h5>
-	<h6>Texto H6</h6>
+	<h1>Página do curso de Engenharia de Computação</h1>
+	<table  style="border: 2px solid blue">
+		<thead>
+		<tr>
+			<th>Professor</th>
+			<th>Disciplina</th>
+		</tr>
+		
+	</thead>
+	<tbody>
+		<tr>
+			<td>Paulo Silva</td>
+			<td>Linguagem de Programação 2</td>
+		</tr>
+		<tr>
+			<td>Ernesto</td>
+			<td>Banco de Dados 2</td>
+		</tr>
+		<tr>
+			<td rowspan="3"> Carlos Guedes </td>
+			<td>Linguagens formais e Automatos</td>
+		</tr>
+		<tr>
+			
+			<td>Engenharia de Software</td>
+		</tr>
+		<tr>
+			
+			<td>Sistemas Digitais</td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2">
+					Válido para 2018.1
+				</td>
+			
+			</tr>
+	</tfoot>
+	</table>
+	<h3>Formulário de Matrícula</h3>
+	<form>
+		Nome: <input type="text" name=""> <br/>
+		Data de Nascimento: <input type="date" name=""> <br/>
+		CPF: <input type="text" name=""> <br/>
+		Sexo: <select> 
+			<option> Masculino</option>
+			<option>Feminino</option>
+			<option>Outros</option>
+		</select> <br/>
+		Termo de Responsabilidade: 
+		<br/> 
+		<input type="checkbox" name=""> Me responsabilizo pelos dados preenchidos.
+		<br/>
+	</form>
+
+
+
+	<h3>Os Caras Ricos</h3>
+
+	
 		<ul>
-		<li>Engenharia da Computação;</li>
-		<li>Sistemas para Internet;</li>
-		<li>Redes de Computação;</li>
-		<li>Jogos Digitais;</li>
+		<li>Karen</li>
+		<li>Diozefe</li>
+		<li>Bruno</li>
+		<li>Lucas</li>
+		<li>Savio</li>
 		</ul>
+		<div>
+			<span>
+				<i>Autor: Karen Picanço</i>
+				<br>
+				<a href="http://meta.edu.br/faculdade">Link para a Faculdade META</a>
+			
+		<br>
+				(<a href="https://github.com/KarenPicanco"> Acesso ao GITHUB</a>)
+		<br>
+			</span>
+		<b>Faculdade Meta - 2018</b><br>
+		<strong>Todos os direitos reservados</strong>	
+		</div> 
+		<!-- comentarios de varias linhas 
+			<i></i> italico.
+			<b></b> negrito.
+			<dir></dir> no final de toda div por ela ser um elemeto em bloco ela sempre quebra uma linha.
+			<a href=""></a> atalho para links htmls.
+		-->
+
+
+
+
+
 	</body>
 </html>
 
